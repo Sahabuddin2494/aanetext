@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    overflow-x: hidden;
+}
+/* header_part_start */
+.header_part_start{
+   /* background-color:#00AEEF; */
+   position: fixed;
+   top: 0;
+   right: 0;
+   left: 0;
+   z-index: 1030;
+}
+.header_part_left{
+    padding: 16px 0px 10px 0px;
+    background-color:#00AEEF;
+ 
+}
+.header_part_left_main{
+    background-color: white;
+    text-align: right;
+}
+.header_left_logo_size{
+    width: 80%;
+    background-color: white;
+    
+}
+
+/* left_side_end */
+.aa_header_part_right{
+
+}
+/* menu_section_start */
+    /* other_navbar_start */
+    .new_navbar{
+        background-color:black;
+       
+    }
+    .navbar {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .new_navbar ul {
+        list-style: none;
+    }
+    
+    .new_navbar ul li {
+        position: relative;
+        float: left;
+        /* padding:0px 10px 10px 10px; */
+        padding: 0px 0px 0px 0px;
+    }
+    .new_navbar ul li a {
+        display: block;
+        padding: 10px 10px;
+        font-family: Oswald, sans-serif;
+        font-size: 18px;
+        /* line-height: 42px; */
+        font-weight: 400;
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: white;
+        /* background-color: red; */
+    }
+    
+    .new_navbar ul li a:hover {
+        background-color:#00AEEF;
+        color: white;
+    }
+    
+    .new_navbar ul li .drop_ul {
+        position: absolute;
+        top: 100%;
+        left: 0px;
+        width: 200px;
+        /* background-color: thistle; */
+        background-color:black;
+        z-index: 100;
+        display: none;
+        padding: 0px 0px;
+        box-shadow: 0px 0px 7px 3px thistle;
+      
+    }
+    
+    .new_navbar ul li .drop_ul .drop_ul_li {
+        width: 100%;
+        padding: 0px 0px;
+        /* border-top: 1px solid black; */
+    
+        /* margin:0px 0px 0px -29px; */
+    }
+    
+    .new_navbar ul li .drop_ul .drop_ul_li a {
+        /* padding:4px 0px 4px 40px; */
+        /* background-color: white; */
+        transition: all 0.3s;
+        font-size: 15px;
+        border-bottom: 1px dotted thistle;
+        color:white;
+        padding-top: 10px;
+       
+    }
+    
+    .new_navbar ul li:hover>ul,a {
+        display: initial;
+    
+    }
+    /* other_navbar_end */
+/* mwnu_bar_end */
+/* slider_section_start */
+.carousel_section_start{
+
+}
+.carousel_img_size{
+width:100%;
+max-height: 650px;
+}
+.carousel_section_start .carousel-caption {
+    position: absolute;
+    bottom: 12.25rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.carousel_section_start .carousel-caption h1 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 400;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.carousel_section_start .carousel-caption h1 span {
+    color:#00AEEF;
+    font-weight: bold;
+}
+.carousel_section_start .carousel-caption p {
+    font-size: 15px;
+    line-height: 24px;
+    font-weight:bold;
+    color: #fff;
+    font-family:Josefin Sans, sans-serif;
+}
+.carousel_section_start .carousel-caption a {
+    background-image:url("../image/btn-link.png");
+    font-size: 0;
+    width: 172px;
+    height: 44px;
+    display: inline-block;
+    border: none;
+}
+/* slider_section_end */
+/* header_part_end */
+/* aa_middle_section_start */
+.aa_middle_section_start{
+background-image:url("../image/product-bg.jpg");
+background-repeat: no-repeat;
+background-size:100% 100%;
+}
+.new_product_section{
+
+}
+.new_product_section h2{
+    font-family: Oswald, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color:white;
+}
+.new_product_section h2 span{
+   color: black;
+}
+.new_product_slider_section{
+
+}
+.new_product_slider_one{
+text-align: center;
+}
+.n_p_sli_one_img_size{
+width:100%;
+/* max-height: 400px; */
+}
+.new_product_slider_one_para{
+    text-align: center;
+    padding: 10px;
+    font-family: Oswald, sans-serif;
+    text-transform: capitalize;
+    color: white;
+    background-color: #00AEEF;
+}
+.new_product_slider_one h5{
+    margin: 0px;
+    padding: 0px;
+}
+.new_product_slider_one p{
+    margin: 0px;
+    padding: 0px;
+}
+/* aa_middle_section_end */
+/* our_customer_section_start */
+.our_customer_section_start{
+position: relative;
+}
+.our_customer_section_title{
+    font-family: Oswald, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #00AEEF;
+    text-align: center;
+    background-color: #fff;
+    position: absolute;
+    top: 20px;
+    left: 30%;
+    right: 30%;
+}
+.our_customer_section_title h3{
+
+}
+.our_customer_section_title span{
+color: black;
+}
+.our_cus_sec_b_d_size{
+    width: 90%;
+    max-height: 200px;
+    box-shadow: 0px 0px 7px 0px plum;
+}
+.our_customer_comm_section{
+    border: 1px solid #00AEEF;
+}
+/* our_customer_section_end */
+/* footer_section_start */
+.footer_section_start{
+background-color: #303030;
+}
+.footer_section_inner{
+    text-align: center;
+}
+.footer_section_logo{
+
+}
+.footer_section_logo_size{
+    
+}
+.footer_section_inner h3{
+    color: white;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+}
+.footer_section_inner p{
+    color: #877d7b;
+    font-size: 14px;
+    margin: 0px;
+}
+.footer_section_inner h5{
+    display: block;
+    margin-top: 10px;
+    color: #6c6563;
+    font-size: 17px;
+}
+.footer_section_inner_icon{
+
+}
+.footer_section_inner_icon .svg-inline--fa {
+    display: var(--fa-display,inline-block);
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.125em;
+    background-color: white;
+    padding: 12px;
+    color:tomato;
+    margin: 4px;
+}
+/* footer_section_end */
+/* about_us_page_start */
+.about_us_section{
+
+}
+.about_us_section_left{
+    font-family: Roboto, sans-serif;
+}
+.about_us_section_left hr{
+    opacity:1;
+    background-color:#00AEEF;
+    border:none;
+    height: 4px;
+    width: 70px;
+}
+.about_us_section_left h3{
+    font-size: 30px;
+    line-height: 1.4;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+}
+.about_us_section_left h4{
+    font-size: 14px;
+    font-weight: 700;
+}
+.about_us_section_left p{
+    font-size: 14px;
+    line-height: 22.4px;
+    color: #373332;
+}
+
+/* about_us_banner_section_start */
+.about_us_banner_section{
+    background: url("../image/about-banner.jpg") top no-repeat fixed;
+    display: block;
+    position: relative;
+    /* background: url("../image/about-banner.jpg") top no-repeat fixed; */
+    background-size: cover;
+    padding: 120px 0 30px;  
+}
+.about_us_banner_section:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+  
+}
+.about_us_banner_title{
+    position: relative;
+    z-index: 1;
+}
+.about_us_banner_title a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.about_us_banner_title h2{
+    display: block;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+/* about_us_banner_section_end */
+/* about_us_page_end */
+/* what_we_offer_page_start */
+/* what_we_offer_page_end */
+/* .our_customer_section_start */
+.our_customer_section_one{
+    border: 1px solid #F35E0A;
+    text-align: center;
+}
+/* .our_customer_section_end */
+/* about_bangladesh_page_start */
+.about_bangladesh_left{
+
+}
+.about_bangladesh_left p{
+    font-size: 14px;
+    line-height: 22.4px;
+    color: #373332;
+}
+.about_bangladesh_right{
+
+}
+.contact_page_right{
+
+}
+.contact_page_right_form_section{
+
+}
+.contact_page_right_form_section .btn{
+    text-transform: uppercase;
+    background-color:#303030;
+    color: white;
+    border-radius:0px;
+}
+.contact_page_right_form_section .btn:hover{
+    background-color: #00AEEF;
+    color: white;
+}
+/* about_bangladesh_page_end */
+/* product_mens_page_start */
+.product_mens_page_start{
+
+}
+.product_mens_page_item1{
+    text-align: center;
+    border: 1px solid #DDDDDD;
+}
+.product_mens_page_item1_img{
+
+}
+.product_mens_page_item1_para a{
+    background: #00aeef;
+    padding: 10px;
+    font-family: Oswald, sans-serif;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+/* product_mens_page_end */
